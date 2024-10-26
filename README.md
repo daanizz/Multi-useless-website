@@ -1,4 +1,4 @@
-![Screenshot (149)](https://github.com/user-attachments/assets/fa30a3d7-c3d0-4b51-9052-28dd9ca75de2)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # Multi useless website 🎯
 
@@ -54,11 +54,12 @@ INITIAL PAGE
 (FIRST PAGE)
 *it shows the first page of our website.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot (150)](https://github.com/user-attachments/assets/62b0852a-4974-4b6a-a580-0903b5a77e6c)
+(main page2)
+*this shows the second part  of main page where the entertainment section starts.*
 
-(https://github.com/user-attachments/assets/4646e5f0-9965-4163-965e-a9fe0f5aedc7)
-INITIAL PAGE
+![Screenshot (151)](https://github.com/user-attachments/assets/9dd0371d-101a-45be-bdbf-4e26d425831a)
+(encyclopedia)
 *Add caption explaining what this shows*
 
 # Diagrams
