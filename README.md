@@ -45,6 +45,10 @@ in the given flder(responsive website), the first file to open is hackathon.html
 ### Project Documentation
 For Software:
 
+(https://github.com/user-attachments/assets/4646e5f0-9965-4163-965e-a9fe0f5aedc7)
+INITIAL PAGE
+*Add caption explaining what this shows*
+
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
@@ -52,8 +56,8 @@ For Software:
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screens![WhatsApp Image 2024-10-26 at 7 04 57 AM](https://github.com/user-attachments/assets/4646e5f0-9965-4163-965e-a9fe0f5aedc7)hot3]
-(Add screenshot 3 here with proper name)
+(https://github.com/user-attachments/assets/4646e5f0-9965-4163-965e-a9fe0f5aedc7)
+INITIAL PAGE
 *Add caption explaining what this shows*
 
 # Diagrams
