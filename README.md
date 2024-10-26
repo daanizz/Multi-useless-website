@@ -1,4 +1,4 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+![Screenshot (149)](https://github.com/user-attachments/assets/fa30a3d7-c3d0-4b51-9052-28dd9ca75de2)<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # Multi useless website 🎯
 
@@ -40,7 +40,7 @@ For Software:
 [commands]
 
 # Run
-in the given flder(responsive website), the first file to open is hackathon.html
+The first file to open is hackathon.html, from there other files are connected through hyperlink..
 
 ### Project Documentation
 For Software:
@@ -50,8 +50,9 @@ INITIAL PAGE
 *Add caption explaining what this shows*
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot (149)](https://github.com/user-attachments/assets/11c7b893-2ce4-44d1-a492-f179b9141e73)
+(FIRST PAGE)
+*it shows the first page of our website.*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
