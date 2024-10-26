@@ -60,7 +60,6 @@ INITIAL PAGE
 
 ![Screenshot (151)](https://github.com/user-attachments/assets/9dd0371d-101a-45be-bdbf-4e26d425831a)
 (encyclopedia)
-*Add caption explaining what this shows*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
