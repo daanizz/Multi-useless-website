@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffe0b2, #ffcc80);
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background: #ff7043;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.sidebar:hover {
+    transform: scale(1.05);
+}
+
+.sidebar h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+label:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* Canvas Styling */
+canvas {
+    flex: 1;
+    background-color: #ffffff;
+    cursor: crosshair;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+canvas:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+/* Add some flourishes */
+.flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, #ffd54f, #ffb300);
+    border-radius: 50%;
+    animation: grow 1s infinite alternate;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Button styles for future additions */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #ff6f61;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #ff4f3e;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Runner Game</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    
+    <div id="game-container">
+        <div id="character"></div>
+        <div id="score-display">Score: 0</div>
+        <div class="platform" style="top: 80%; left: 20%;"></div>
+        <div class="platform" style="top: 60%; left: 50%;"></div>
+        <div class="platform" style="top: 40%; left: 30%;"></div>
+        <div class="platform" style="top: 20%; left: 70%;"></div>
+    </div>
+    
+    <!-- Popup Message -->
+    <div id="popup" class="hidden">
+        <div id="popup-message">Game Over! Your score: <span id="popup-score"></span></div>
+        <button id="restart-button">Restart</button>
+    </div>
+
+    <audio id="score-sound" src="score-sound.mp3" preload="auto"></audio>
+    <audio id="game-over-sound" src="game-over-sound.mp3" preload="auto"></audio>
+    <script src="p1.js"></script>
+</body>
+</html>

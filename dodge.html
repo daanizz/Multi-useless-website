@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Running Game</title>
+    <link rel="stylesheet" href="dodge.css">
+</head>
+<body>
+    <!-- Start Page -->
+    <div id="startPage">
+        <h1>Dodge It</h1>
+        <p>dodge it if you can</p>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <!-- Game Elements -->
+    <div id="gameContainer" style="display: none;">
+        <div id="scoreDisplay">Score: 0</div>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <button id="retryButton" style="display: none;">Retry</button>
+    </div>
+    
+    <script src="dodge.js"></script>
+</body>
+</html>
