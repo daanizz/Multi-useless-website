@@ -1,31 +1,31 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Multi useless website 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: CIPHER
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: AKSHITH K - TKMCE, KOLLAM
+- Member 2: AKSHAY K - TKMCE, KOLLAM
+- Member 3: DANISH ZAKARIYA V V - TKMCE, KOLLAM
 
 ### Project Description
-[2-3 lines about what your project does]
+The Multi Useless Website is a place to play quirky, pointless games and explore an unusual information section. Each section has a surprising twist—the images you see may not match the content inside.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+LACK OF USELESS ENTERTAINMENT AND FUN WAY TO LEARN SOMETHING
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+CREATED A FUNNY ENCYCLOPEDIA WHICH SHOWS CERTAIN IMAGES AND WHEN CLICKED ON IT, IT WILL SHOW DETAILS OF OTHER OBJECTS WITH SAME NAME BUT DIFFERENT MEANING AND ALSO SOME USELESS GAMES FOR ENTERTAINMENT.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- html,css,javascript
+- bootstrap
 - [Libraries used]
 - [Tools used]
 
@@ -40,7 +40,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+in the given flder(responsive website), the first file to open is hackathon.html
 
 ### Project Documentation
 For Software:
@@ -52,7 +52,8 @@ For Software:
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screens![WhatsApp Image 2024-10-26 at 7 04 57 AM](https://github.com/user-attachments/assets/4646e5f0-9965-4163-965e-a9fe0f5aedc7)hot3]
+(Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
