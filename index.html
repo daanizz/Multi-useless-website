@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Multi-Useless</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="hackathon.css">
+
+  
+
+  <style>
+    .sectionHomepage, .sectionApple, .sectionOrange, .sectionRock, .sectionAmazon, .sectionTesla, .sectionPuma, .sectionBlackberry, .sectionBat {
+      display: none;
+    }
+    .sectionHomepage.active, .sectionApple.active, .sectionOrange.active, .sectionRock.active, .sectionAmazon.active, .sectionTesla.active, .sectionPuma.active, .sectionBlackberry.active, .sectionBat.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="sectionHomepage active" id="sectionHomepage">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="https://b2b989d215c701ad63d7-288404e13f895703cf2798bf6ae95228.ssl.cf1.rackcdn.com/656455515094-350.png" class="logo-image"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-12">
+          <h1 class="main-heading">The MULTI - USELESS !!</h1>
+        </div>
+
+        <!-- Item Container 1-->
+        <div class="col-12">
+          <div class="item-container">
+            <h1 class="item-heading mb-3">Encyclopedia : <span class="item-short-heading">Every picture, every detail</span></h1>
+            <div class="row">
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ868djAR5mIlAFnnjF---4paarCg48aQTr-g&s" class="item-image" onclick="displaySection('sectionApple')"/>
+                <p class="item-name">Apple</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/800px-Ambersweet_oranges.jpg" class="item-image" onclick="displaySection('sectionOrange')"/>
+                <p class="item-name">Orange</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOZ935B2tKccfp3n2QugED0xLVf6VXmGjrJw&s" class="item-image" onclick="displaySection('sectionRock')"/>
+                <p class="item-name">Rock</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://techsplurge.com/wp-content/uploads/2024/02/amazon-excludes-chromecast-from-its-product-lineup-1708911698.jpeg" class="item-image" onclick="displaySection('sectionAmazon')"/>
+                <p class="item-name">Amazon</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://static.vecteezy.com/system/resources/previews/020/336/484/non_2x/tesla-logo-tesla-icon-transparent-png-free-vector.jpg" class="item-image" onclick="displaySection('sectionTesla')"/>
+                <p class="item-name">Tesla</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5O1ZF4ryBTetdjA5fEBRm3crhtG7dREOGCQ&s" class="item-image" onclick="displaySection('sectionPuma')"/>
+                <p class="item-name">Puma</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://cdn.britannica.com/06/186306-050-93C41044/blackberries-blackberry-fruit-aggregate-drupelets-flower-carpels.jpg" class="item-image" onclick="displaySection('sectionBlackberry')"/>
+                <p class="item-name">Blackberry</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <img src="https://cdnmedia.dsc-cricket.com/media/catalog/product/cache/f6804705d3c9b06dccd038949280b6b0/d/s/dsc-krunch-the-bull-31-english-willow-2.jpg" class="item-image" onclick="displaySection('sectionBat')"/>
+                <p class="item-name">Bat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item Container 2-->
+        <div class="col-12">
+          <div class="item-container">
+            <h1 class="item-heading mb-3">Entertainment : <span class="item-short-heading">Lets's Dive into some games</span></h1>
+            <div class="row">
+              <div class="col-6 col-md-3 mb-4">
+                <a href="intro.html" target="_blank">
+                  <img src="IMG1.jpeg" class="item-image" />
+                  <p class="item-name">HIT BAR GAME</p>
+                </a>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <a href="draw.html" target="_blank">
+                  <img src="IMG2.jpeg" class="item-image" />
+                  <p class="item-name">DRAW-N-FIND</p>
+                </a>  
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <a href="dodge.html" target="_blank">
+                  <img src="IMG3.jpeg" class="item-image" />
+                  <p class="item-name">DODGE IT</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Additional Sections -->
+  <div class="sectionApple" id="sectionApple">
+    <!-- Content for Apple -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <h1 class="apple-second-heading">APPLE</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="75" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                </svg>
+              </div>
+              <p class="apple-section-description">Apple Inc. is a major American technology company founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Headquartered in Cupertino, California, it is renowned for designing and manufacturing popular consumer electronics, software, and services. Apple’s most iconic products include:</p>
+              <P><span class="apple-point-highlight">iPhone:</span> One of the most successful smartphones, redefining mobile technology.</P>       
+              <P><span class="apple-point-highlight">iPad:</span> A pioneering tablet device known for its versatility.</P>
+              <P><span class="apple-point-highlight">Mac:</span> Apple's line of personal computers, including MacBook laptops and iMac desktops.</P>
+              <P><span class="apple-point-highlight">Apple Watch:</span> A widely used wearable technology device.</P>
+              <P><span class="apple-point-highlight">AirPods:</span> Wireless earbuds that popularized the trend of Bluetooth audio accessories.</P>
+              <P><span class="apple-point-highlight">Apple TV:</span> A digital media player offering streaming services.</P>
+              <P class="apple-section-description">Apple is also known for its software ecosystem, including iOS, macOS, watchOS, and tvOS, as well as services like the App Store, Apple Music, iCloud, and Apple Pay.</P>
+              <!--<P class="apple-section-description">Apple has a reputation for innovation, minimalistic design, and a tightly integrated ecosystem that ensures seamless connectivity among its devices. The company has become one of the world’s largest and most valuable brands, recognized for its brand loyalty and customer satisfaction, as well as its continuous efforts toward sustainability and privacy-focused technology.</P> -->
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionOrange" id="sectionOrange">
+    <!-- Content for Orange -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <h1 class="apple-second-heading">ORANGE</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                  <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                  <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+                </svg>
+              </div>
+              <p class="apple-section-description">Orange is a vibrant, warm color that sits between red and yellow on the color spectrum. It is associated with energy, enthusiasm, warmth, and happiness, often evoking feelings of creativity, excitement, and joy.</p>
+
+              <p class="apple-description">The color orange has cultural and symbolic significance in many places:</p> 
+                
+              <p class="apple-description"><span class="apple-point-highlight">Psychology of Orange:</span>Often used to attract attention, orange is thought to stimulate activity, creativity, and social communication. It is also associated with autumn, as it resembles the colors of leaves and harvest.</p> 
+                
+              <p class="apple-description"><span class="apple-point-highlight">Symbolism:</span>
+                
+              <p class="apple-description"><span class="apple-point-highlight">Safety:</span> Orange is commonly used for high-visibility clothing, life vests, and caution signs.</p> 
+              <p class="apple-description"><span class="apple-point-highlight">Spirituality and Religion:</span> In Hinduism and Buddhism, orange (or saffron) symbolizes purity, enlightenment, and renunciation.</p> 
+              <p class="apple-description"><span class="apple-point-highlight">National Color:</span> In the Netherlands, orange is a national color associated with the royal family, House of Orange-Nassau.</p> 
+              <p class="apple-description"><span class="apple-point-highlight">Orange in Design:</span> Often used to convey warmth and vibrancy, it’s popular in branding to represent affordability, adventure, or youthfulness. In interior design, it brings a lively, cozy touch to spaces.</p> 
+                
+              <p class="apple-description"><span class="apple-point-highlight">Natural Occurrences:</span> Orange is seen in sunsets, autumn leaves, flowers, spices like turmeric, and certain fruits and vegetables (such as carrots, pumpkins, and of course, oranges).</p> 
+                
+            
+              <button class="btn btn-primary mb-4 mt-2 " onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionRock" id="sectionRock">
+    <!-- Content for Rock -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column justify-content-center">
+                  <h1 class="apple-second-heading">ROCK</h1>
+                  <div class="text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg/800px-Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg" class="rock-image"/>
+                  </div>
+                  </div>
+              </div>
+              <p class="apple-section-description">Dwayne "The Rock" Johnson is an American actor, producer, businessman, and former professional wrestler, widely regarded as one of the most successful and charismatic entertainers in the world.</p>
+
+              <p class="apple-description"><span class="apple-point-highlight">Early Life Birth :</span>Born on May 2, 1972, in Hayward, California, Dwayne Douglas Johnson is the son of professional wrestler Rocky Johnson and Ata Johnson.</p>
+              <p class="apple-description"><span class="apple-point-highlight">Background :</span> He has Samoan heritage and is also of Canadian descent. He was raised in a wrestling family and developed an interest in sports at a young age.</p>
+              <p class="apple-description"><span class="apple-point-highlight">Wrestling Career :</span></p>
+              <p class="apple-description"><span class="apple-point-highlight">WWE Debut :</span> Johnson began his wrestling career in the mid-1990s under the ring name Rocky Maivia, combining the names of his father and grandfather (Peter Maivia).</p>
+              <p class="apple-description"><span class="apple-point-highlight">The Rock Persona :</span> He later adopted the persona of The Rock, becoming one of the most popular and successful wrestlers in WWE history, known for his electrifying charisma, catchphrases, and signature moves.</p>
+              <p class="apple-description"><span class="apple-point-highlight">Achievements :</span> The Rock won numerous championships during his wrestling career, including multiple WWE Championships and was a key figure in the "Attitude Era," helping to elevate professional wrestling's popularity.</p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionAmazon" id="sectionAmazon">
+    <!-- Content for Amazon -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                  <h1 class="apple-second-heading">AMAZON</h1>
+                  <div class="text-center">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/mata-atlantica-atlantic-forest-in-brazil-royalty-free-image-1668724621.jpg" class="rock-image"/>
+                  </div>
+                </div>
+              </div>
+              <p class="apple-section-description">The Amazon River is the largest river in the world by discharge volume and one of the longest rivers, spanning approximately 4,345 miles (7,062 kilometers) through South America. It flows primarily through Brazil but also traverses parts of Peru, Colombia, and several other countries.</p>
+
+              <p class="apple-section-description">Key Features and Facts</p>
+              <p class="apple-description"><span class="apple-point-highlight">Geography:</span></p>
+                
+              <p>The Amazon River begins in the Andes Mountains of Peru and flows eastward across northern Brazil before emptying into the Atlantic Ocean.
+                It has a vast network of tributaries, with the most significant being the Negro, Madeira, and Tapajós rivers.</p>
+              <p class="apple-description"><span class="apple-point-highlight">Biodiversity:</span></p>
+                
+              <p>  The Amazon River basin is home to one of the most diverse ecosystems on the planet, including thousands of species of fish, mammals, reptiles, and birds.
+                Notable species include the Amazon pink river dolphin, piranha, anacondas, and various species of monkeys and birds.</p>
+              <p class="apple-description"><span class="apple-point-highlight">Cultural Significance:</span></p>
+                
+              <p>The river and its surrounding rainforest have been home to indigenous peoples for thousands of years, with many tribes relying on the river for sustenance and transportation.
+                The Amazon is often referred to as the "lungs of the Earth" due to its extensive rainforest, which plays a crucial role in carbon dioxide absorption and oxygen production.
+              </p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionTesla" id="sectionTesla">
+    <!-- Content for Tesla -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                  <h1 class="apple-second-heading">TESLA</h1>
+                  <div class="text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa8dfMU6ou3DvcPYt39fD7-ie3T6POtirXOg&s" class="rock-image"/>
+                  </div>
+                  </div>
+              </div>
+              <p class="apple-section-description">Nikola Tesla (1856–1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the development of alternating current (AC) electricity supply systems. His groundbreaking work laid the foundation for modern electrical power systems and numerous technological advancements.
+
+                <p class="apple-description"><span class="apple-point-highlight">Early Life
+                Birth:</span> Tesla was born on July 10, 1856, in Smiljan, Croatia (then part of the Austrian Empire).</p>
+                <p class="apple-description"><span class="apple-point-highlight">Education:</span> He studied engineering and physics at the Technical University of Graz and the University of Prague but did not complete his degree. Tesla had a profound understanding of electricity and magnetism from a young age.</p>
+                <p class="apple-section-description">Career Highlights</p>
+                <p class="apple-description"><span class="apple-point-highlight">Emigration to the U.S.:</span> Tesla moved to the United States in 1884, initially working with Thomas Edison. Their differing views on electrical systems led to a split between them.</p>
+                <p class="apple-description"><span class="apple-point-highlight">Alternating Current (AC):</span> Tesla championed AC over Edison's direct current (DC) for electrical power transmission. He developed the AC induction motor and transformer, which enabled efficient transmission of electricity over long distances.
+                Major Inventions and Contributions
+                </p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionPuma" id="sectionPuma">
+    <!-- Content for Puma -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                  <h1 class="apple-second-heading">PUMA</h1>
+                  <div class="text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmEw8TrscvmCGKcZO9Z9g0sfzQv2gHyWvz2g&s" class="rock-image"/>
+                  </div>
+                  </div>
+              </div>
+                <p class="apple-section-description">Puma SE is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel, and accessories. Founded in 1948, Puma has grown to become one of the world's leading sports brands, known for its innovative products and stylish designs.</p>
+
+                <p>History</p>
+                <p class="apple-description"><span class="apple-point-highlight">Founding:</span> Puma was established by Rudolf Dassler after he split from his brother Adolf Dassler, who went on to create Adidas. The two brothers originally founded the company Gebrüder Dassler Schuhfabrik in 1924, which produced athletic shoes.
+                <p class="apple-description"><span class="apple-point-highlight">Name Origin:</span> The name "Puma" was chosen to symbolize agility, strength, and speed, reflecting the brand's focus on sports.
+                <p>Products</p>
+                <p class="apple-description"><span class="apple-point-highlight">Footwear:</span> Puma offers a wide range of athletic shoes for various sports, including soccer, running, training, and lifestyle sneakers. The brand is known for its innovative technologies, such as the PUMA Ignite and PUMA RS series.
+                <p class="apple-description"><span class="apple-point-highlight">Apparel:</span> The company produces sportswear, including jerseys, shorts, and casual wear, often designed for performance and comfort.
+                <p class="apple-description"><span class="apple-point-highlight">Accessories:</span> Puma also sells sports-related accessories like bags, socks, and hats.
+                
+                </p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionBlackberry" id="sectionBlackberry">
+    <!-- Content for Blackberry -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                  <h1 class="apple-second-heading">BLACKBERRY</h1>
+                  <div class="text-center">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*tSfGAgVwiKDqxEp3aVUreA.jpeg" class="rock-image"/>
+                  </div>
+                  </div>
+              </div>
+              <p class="apple-section-description">BlackBerry was a line of smartphones known for its physical keyboard, strong security features, and business-oriented functionality. BlackBerry devices were initially manufactured by the Canadian company Research In Motion (RIM), which later rebranded as BlackBerry Limited.</p>
+
+              <p class="apple-section-description">Key Features and Highlights</p>
+                <p class="apple-description"><span class="apple-point-highlight"> Physical Keyboard:</span> BlackBerry phones were famous for their physical QWERTY keyboard, which appealed to business users who needed fast, accurate typing for emails and messaging.</p>
+                
+                <p class="apple-description"><span class="apple-point-highlight">BlackBerry OS:</span> The proprietary operating system, known for secure communication, featured BlackBerry Messenger (BBM), an early popular messaging service that provided encrypted communication.</p>
+                
+                <p class="apple-description"><span class="apple-point-highlight"> Security:</span> BlackBerry devices were renowned for strong encryption and secure email services, which attracted government and corporate clients worldwide, especially during the 2000s.</p>
+                
+                <p class="apple-description"><span class="apple-point-highlight">Push Email:</span> BlackBerry pioneered push email technology, where emails were delivered instantly to users’ phones, making it indispensable for professionals on the go.</p>
+                </p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="sectionBat" id="sectionBat">
+    <!-- Content for Bat -->
+    <div class="bg-apple">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="apple-section-container">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column">
+                  <h1 class="apple-second-heading">BAT</h1>
+                  <div class="text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ73wEUzw6WCEnSTpLtnHZbBcM08HbHVJ98EQ&s" class="rock-image"/>
+                  </div>
+                </div>
+              </div>
+              <p class="apple-section-description">Bats are the only mammals capable of sustained flight, and they belong to the order Chiroptera. With more than 1,400 species worldwide, bats make up nearly a quarter of all mammal species. They are often divided into two main types:</p>
+
+              <p class="apple-description"><span class="apple-point-highlight">Megabats (Flying Foxes):</span> Generally larger bats that rely more on sight and smell, commonly found in tropical regions and often feeding on fruit, nectar, and flowers.</p>
+                
+                <p class="apple-description"><span class="apple-point-highlight">  Microbats:</span> Smaller bats that rely on echolocation to navigate and hunt insects. They emit high-frequency sounds that bounce off objects, helping them locate prey in the dark.</p>
+                
+                <p class="apple-section-description">Key Characteristics</p>
+                <p class="apple-description"><span class="apple-point-highlight">  Wings:</span> Bats have wings that are made up of skin stretched over elongated finger bones, making their flight style unique and highly maneuverable.</p>
+                <p class="apple-description"><span class="apple-point-highlight">  Diet:</span> Most bats are insectivorous, consuming vast numbers of insects each night, which helps in natural pest control. Other species are frugivorous (fruit-eating) or nectarivorous (nectar-feeding), playing crucial roles in pollination and seed dispersal for many plants.</p>
+                <p class="apple-description"><span class="apple-point-highlight">  Echolocation:</span> Microbats use this sophisticated sonar system to locate objects and prey, especially in complete darkness. Bats emit sound waves and listen for the echoes to map their surroundings with precision.</p>
+                </p>
+              <button class="btn btn-primary" onclick="displaySection('sectionHomepage')">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script>
+    function displaySection(sectionId) {
+      document.querySelectorAll('.sectionHomepage, .sectionApple, .sectionOrange, .sectionRock, .sectionAmazon, .sectionTesla, .sectionPuma, .sectionBlackberry, .sectionBat').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
